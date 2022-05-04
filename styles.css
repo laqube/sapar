@@ -1,0 +1,588 @@
+
+/* text */
+h1{
+  font-size: 88px;
+  font-family: 'Quicksand', sans-serif;
+}
+h3{
+  font-size: 60px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h4{
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h5{
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.thin{
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+
+a{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  outline: 0;
+  color: #222831;
+}
+
+a:hover{
+  color: #7BC74D;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.p{
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #EEE;
+}
+
+.highlighted{
+  color: #7BC74D;
+  background-color: #EEEEEE;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #7BC74D !important;}
+
+.dropdown-item:focus, .dropdown-item:active {
+  background-color: #7BC74D !important;
+  color: #222831 !important;}
+
+/* dis for text */
+@media (min-width: 768px) {
+  .navbar-brand.abs
+  {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+body{
+  background-color: #EEEEEE;
+}
+.beton{
+  background-color: #EEEEEE;
+  border: none;
+  color: #222831;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.cartbeton{
+  background-color: #EEEEEE;
+  color: #222831;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none
+}
+
+.cartbeton:checked{
+  background-color: #7BC74D!important;
+  background-image: image();
+  color: #222831;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+}
+
+/* pill for header2 */
+.mipill{
+  color: #EEEEEE!important;
+  border: 2px solid #EEEEEE;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.mipill a:hover{
+  color:#7BC74D !important;
+
+}
+
+.hicon{
+        -webkit-text-stroke: 0.0001px;
+    }
+
+/* dis for another text */
+.panim {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #EEE,#000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+
+/* backgrounds */
+
+
+.img-container{
+    width: 100%; height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 1200px 1200px rgba(34, 40, 49, 90%);
+    background-image: url("pics/icons/f.png");
+    background-size: 100%;
+}
+
+/* 404 PAGE */
+.forofor{
+  width: 100%; height: 100%;
+  position: absolute;
+  background-clip: border-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: inset 1200px 1200px rgba(34, 40, 49, 90%);
+  background-image: url("pics/icons/f.png");
+  background-size: cover;
+}
+
+.sales{
+  background-image: url("pics/icons/4.png");
+  background-origin: border-box;
+  background-clip: border-box;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 500px;
+
+
+}
+
+
+.plenka{
+  box-shadow: inset 1200px 1200px rgba(34, 40, 49, 70%)!important;
+}
+
+/* button to return to top */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+/* introtext */
+.wrapper {
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.typing-demo {
+  width: 17%;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+/* cooltext */
+.easterbody{
+
+  height: 100%;
+  background: ##222831f;
+  font-size: 60px;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eul {
+  position: relative;
+  display: flex;
+}
+
+.eli {
+  list-style: none;
+}
+
+.elabel {
+  position: relative;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  z-index: 100;
+}
+
+.ediv {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background: #18191f;
+  color: #555;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 20px;
+  box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+  4px 4px 6px rgba(0, 0, 0, 0.2),
+  inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+  inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"]:checked ~ div {
+  box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.05),
+  inset 0px 0px 6px rgba(0, 0, 0, 0.2);
+  color: yellow;
+  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+  animation: glow 1.5s linear infinite;
+}
+
+@keyframes glow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* pic and gif */
+.abs{
+  height: 100%;
+  width: 500%
+
+
+}
+
+
+
+/* howtobutton */
+
+.htcontainer {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.htbar1, .htbar2, .htbar3 {
+  width: 31px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .htbar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .htbar2 {opacity: 0;}
+
+.change .htbar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/* parallax */
+
+.parax {
+  /* The image used */
+
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment:  fixed; */
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+
+}
+
+.parax1 {
+  /* The image used */
+  background-image: url("pics/prod/fire.gif");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parax2 {
+  /* The image used */
+  background-image: url("pics/prod/px3.png");
+
+  /* blur */
+
+
+  filter: blur(2px);
+-webkit-filter: blur(2px);
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parax3 {
+  /* The image used */
+  background-image: url("pics/prod/px6.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* navbar stuff */
+.fixed-top {
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform .3s;
+}
+
+/* gallery of prods */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* popups */
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/* shop scrollmenu */
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
